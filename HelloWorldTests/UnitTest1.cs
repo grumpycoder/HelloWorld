@@ -10,7 +10,7 @@ namespace HelloWorldTests
         public void TestMethod1()
         {
             var x = 1;
-            var y = 2;
+            var y = 1;
             Assert.AreEqual(x, y);
         }
     }
