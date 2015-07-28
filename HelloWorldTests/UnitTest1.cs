@@ -11,7 +11,7 @@ namespace HelloWorldTests
         {
             var x = 1;
             var y = 2;
-            Assert.AreNotEqual(x, y);
+            Assert.AreEqual(x, y);
         }
     }
 }
