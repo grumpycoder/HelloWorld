@@ -9,6 +9,9 @@ namespace HelloWorldTests
         [TestMethod]
         public void TestMethod1()
         {
+            var x = 1;
+            var y = 2;
+            Assert.AreNotEqual(x, y);
         }
     }
 }
